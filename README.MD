@@ -1,7 +1,7 @@
 ## SimpleRequest
 A quick method to handle HTTP/S request.
 
-##### Install
+#### Install
 Nomral NPM Installation.
 > npm install @leemcdonald-au/simplerequest
 
