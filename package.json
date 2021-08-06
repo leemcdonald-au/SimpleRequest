@@ -1,0 +1,27 @@
+{
+  "name": "simplerequest",
+  "version": "1.0.0",
+  "description": "Convert HTTP/S requests into an EventEmitter or a Promise.",
+  "main": "src/SimpleRequest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leemcdonald-au/SimpleRequest.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "request",
+    "emitter",
+    "promise"
+  ],
+  "author": "Lee McDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leemcdonald-au/SimpleRequest/issues"
+  },
+  "homepage": "https://github.com/leemcdonald-au/SimpleRequest#readme",
+  "type": "module"
+}
