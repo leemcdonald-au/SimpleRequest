@@ -5,8 +5,9 @@ A quick method to handle HTTP/S request.
 Nomral NPM Installation.
 > npm install @leemcdonald-au/simplerequest
 
+#### Usage
 ```javascript
-import { SimpleRequest } from '@leemcdonald-au/simplerequest'
+import SimpleRequest from '@leemcdonald-au/simplerequest'
 
 // As an EventEmitter
 const request = new SimpleRequest({ host: 'www.google.com', port: 443 })
