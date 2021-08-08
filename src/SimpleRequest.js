@@ -29,7 +29,14 @@ export default class SimpleRequest extends EventEmitter {
 			res.on('data', d => data.push(d))
 
 			// Emit the final data result when compelte.
-			res.on('end', () => this.emit('end', data.toString()))
+			res.on('end', () => {
+				// Grab the final result and bind it to the objects value.
+				const info		= data.toString()
+				this[s.value]	= info
+
+				// Emit the result.
+				this.emit('end', info)
+			})
 		})
 
 		// Forward the request error onto this object for handling.

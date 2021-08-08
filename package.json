@@ -1,6 +1,6 @@
 {
   "name": "@leemcdonald-au/simplerequest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert HTTP/S requests into an EventEmitter or a Promise.",
   "main": "src/SimpleRequest.js",
   "scripts": {

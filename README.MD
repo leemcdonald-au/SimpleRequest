@@ -19,6 +19,10 @@ const request = SimpleRequest.promise({ host: 'www.google.com', port: 443 })
 request.then(data => console.log(data)).catch(error => console.error(error))
 ```
 
+#### Changelog
+- 1.0.2
+    - request.value was never actually set.
+
 ##### Support
 - RVN: RPzCvWdmgqPTBA5qMQFuRPfNoJmvPnVzw8
 - ARK: Aeh9tR1zjE34hBrYfSD1EMfL1cxpkaVJKb
